@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-17T11:55:59 IST" name="Suite" finished-at="2023-10-17T11:56:06 IST" duration-ms="6347">
+    <groups>
+    </groups>
+    <test started-at="2023-10-17T11:55:59 IST" name="Test" finished-at="2023-10-17T11:56:03 IST" duration-ms="3286">
+      <class name="day8.rest.assured.CreateUser">
+        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:day8.rest.assured.CreateUser@33990a0c]" started-at="2023-10-17T11:55:59 IST" name="createUser" finished-at="2023-10-17T11:56:03 IST" duration-ms="3259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b218417]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- day8.rest.assured.CreateUser -->
+    </test> <!-- Test -->
+    <test started-at="2023-10-17T11:56:03 IST" name="getUserTest" finished-at="2023-10-17T11:56:04 IST" duration-ms="1637">
+      <class name="day8.rest.assured.GetUser">
+        <test-method signature="getUser(org.testng.ITestContext)[pri:0, instance:day8.rest.assured.GetUser@43dac38f]" started-at="2023-10-17T11:56:03 IST" name="getUser" finished-at="2023-10-17T11:56:04 IST" duration-ms="1636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39c5a105]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+      </class> <!-- day8.rest.assured.GetUser -->
+    </test> <!-- getUserTest -->
+    <test started-at="2023-10-17T11:56:04 IST" name="updateUserTest" finished-at="2023-10-17T11:56:05 IST" duration-ms="1136">
+      <class name="day8.rest.assured.UpdateUser">
+        <test-method signature="updateUser(org.testng.ITestContext)[pri:0, instance:day8.rest.assured.UpdateUser@593aaf41]" started-at="2023-10-17T11:56:04 IST" name="updateUser" finished-at="2023-10-17T11:56:05 IST" duration-ms="1134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@11c999da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- day8.rest.assured.UpdateUser -->
+    </test> <!-- updateUserTest -->
+    <test started-at="2023-10-17T11:56:05 IST" name="deleteUserTest" finished-at="2023-10-17T11:56:06 IST" duration-ms="233">
+      <class name="day8.rest.assured.DeleteUser">
+        <test-method signature="deleteUser(org.testng.ITestContext)[pri:0, instance:day8.rest.assured.DeleteUser@6e0f5f7f]" started-at="2023-10-17T11:56:05 IST" name="deleteUser" finished-at="2023-10-17T11:56:06 IST" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33a58fcb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- day8.rest.assured.DeleteUser -->
+    </test> <!-- deleteUserTest -->
+  </suite> <!-- Suite -->
+</testng-results>

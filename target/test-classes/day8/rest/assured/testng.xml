@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="day8.rest.assured.CreateUser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="getUserTest">
+  	<classes>
+  		<class name="day8.rest.assured.GetUser"/>
+  	</classes>
+  </test>
+  <test name="updateUserTest">
+  	<classes>
+  		<class name="day8.rest.assured.UpdateUser"/>
+  	</classes>
+  </test>
+  
+  <test name="deleteUserTest">
+  	<classes>
+  		<class name="day8.rest.assured.DeleteUser"/>
+  	</classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->

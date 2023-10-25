@@ -1,0 +1,10 @@
+{
+    
+    "name": "byJSONFile",
+    "location": "JSONFileVille",
+    "phone": "1382478912",
+    "courses": [
+        "C#",
+        "RestAPI"
+    ]
+}
